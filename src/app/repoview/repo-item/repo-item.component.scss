@@ -1,0 +1,31 @@
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.card{
+    margin: auto;
+    width: 80%;
+    box-shadow:  0 8px 16px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+img{
+    height: 200px;
+}
+
+.card:hover{
+    box-shadow:2px 5px 10px 2px rgb(112, 112, 112) ;
+
+}
+
+.card-body{
+    background-color: #fbfbfb;
+}
+
+span{
+    border: 0.5px solid green;
+    padding: 5px;
+    margin-right: 15px;
+    margin-top: 15px;
+}

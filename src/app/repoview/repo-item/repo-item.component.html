@@ -1,0 +1,28 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 mt-3">
+            <div class="card">
+                <div class="card-horizontal">
+                    <img class="" src="{{repo.owner.avatar_url}}" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">{{repo.name}}</h4>
+                        <p class="card-text">{{repo.description}}</p>
+                        <div class="row">
+                            <div class="col-12" style="margin-top: 15px;">
+                                <span>
+                                    Starts : {{repo.stargazers_count}}
+                                </span>
+                                <span>
+                                    Issues : {{repo.open_issues_count}}
+                                </span>
+                                <span style="border: none;">
+                                    Submitted by 30 days ago by {{repo.owner.login}}
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
